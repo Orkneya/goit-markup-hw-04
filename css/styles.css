@@ -143,7 +143,10 @@ h1,h2,h3,h4,h5,h6,p {
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.64px; 
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
 .main-effect-button:hover,
 .main-effect-button:focus{
     background-color: #404bbf;
@@ -184,12 +187,10 @@ h1,h2,h3,h4,h5,h6,p {
     border-radius: 4px;
     margin-bottom: 8px;
 }
-.main-icons-items{
+.main-icons{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* padding-top: 24px; */
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 .main-advantages-subtitle,
 .main-team-subtitle,
@@ -316,9 +317,15 @@ h1,h2,h3,h4,h5,h6,p {
     line-height: 1.5; 
     letter-spacing: 0.32px;
 }
+.footer-container{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
 .footer-soc-title{
     color: #fff;
     font-size: 16px;
+    margin-bottom: 16px;
 }
 .footer-soc-items-conteiner{
     display: flex;
