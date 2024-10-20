@@ -67,6 +67,8 @@ h1,h2,h3,h4,h5,h6,p {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+.ontacts-link-sand{
     transition: color 250ms  cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-link-sand{
@@ -244,16 +246,17 @@ h1,h2,h3,h4,h5,h6,p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;  
+    /* gap: 24px;   */
 }
 .main-soc-link{
     width:  40px;
     height: 40px;
     background-color: #4D5AE5;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    gap: 24px; 
     transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .main-soc-link:hover,
@@ -261,7 +264,7 @@ h1,h2,h3,h4,h5,h6,p {
     background-color: #31D0AA;
 }
 .main-soc-icons{
-    fill: #FFF;
+    fill: #F4F4FD;
 }
 .main-team-foto {
     display: block;
@@ -346,6 +349,9 @@ h1,h2,h3,h4,h5,h6,p {
     justify-content: center;
     gap: 16px;  
 }
+/* .main-soc-icons-items{
+    fill:#F4F4FD;
+} */
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px; 
